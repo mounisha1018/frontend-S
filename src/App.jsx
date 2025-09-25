@@ -4,7 +4,7 @@ import api from "./api/axiosConfig";
 
 import Home from "./pages/Home";
 import Signup from "./pages/Signup";
-import kluLogin from "./pages/Login";
+import Login from "./pages/Login";
 import TeacherDashboard from "./pages/TeacherDashboard";
 import StudentDashboard from "./pages/StudentDashboard";
 import ParentDashboard from "./pages/ParentDashboard";
@@ -58,7 +58,7 @@ function App() {
         ) : (
           <>
             <Link to="/">Home</Link>
-            <Link to="/login">Login</Link>
+            <Link to="/login">kluLogin</Link>
             <Link to="/signup">Signup</Link>
           </>
         )}
