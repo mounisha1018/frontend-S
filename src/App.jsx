@@ -4,7 +4,7 @@ import api from "./api/axiosConfig";
 
 import Home from "./pages/Home";
 import Signup from "./pages/Signup";
-import Login from "./pages/Login";
+import kluLogin from "./pages/Login";
 import TeacherDashboard from "./pages/TeacherDashboard";
 import StudentDashboard from "./pages/StudentDashboard";
 import ParentDashboard from "./pages/ParentDashboard";
